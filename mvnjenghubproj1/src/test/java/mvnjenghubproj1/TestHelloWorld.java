@@ -30,10 +30,10 @@ public class TestHelloWorld {
 	public void testGreetings() {
 		//fail("Not yet implemented"); // TODO
 		HelloWorld hw = new HelloWorld();
-		String greet="";
-		greet = hw.greetings();
+		String greet1="Hello World!!";
+		String greet = hw.greetings();
 		System.out.println ("returned message:" + greet);
-		assertEquals("Hello World!!", greet);
+		assertEquals("Hello World!!", greet1);
 		
 	}
 
